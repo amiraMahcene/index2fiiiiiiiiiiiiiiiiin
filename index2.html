@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCare</title>
+    <link href="../css/index2.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/0c53053c39.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="continer">
+    <div class="head">
+        <div class="logo">
+            <img src="../Images/icons8-medical-doctor-100.png" alt="logo"/>
+            <h1>WCare</h1>
+        </div>
+
+        <div class="liste-menu">
+            <ul>
+                <li><a href=""  class="active">For Patient</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <button><a href="../html/Sing in.html">Sing In</a></button>
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-google"></i></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="left-main">
+            <div class="content">
+                <h1>Medical Servies</h1>
+                <p>We give you a short way to take your appointments in the right cabinet, and also we follow you all your life here</p>
+
+             
+                   <!-- <select name="select-i" id="select-1" >
+                        <option disabled selected> Sing up</option>
+                        <option value="1"><a th:href="@{/patient/a/signup}">Patient</a></option>
+                        <option value="2"> <a href="/cabine/a/signup"> Secretary</a></option>
+                    </select>-->
+                    <button> <a th:href="@{/patient/a/signup}">Patient</a></button>
+                    <button> <a th:href="@{/cabine/a/signup}">Secretaire</a></button>
+              
+
+
+
+            </div>
+        </div>
+        <div class="right-main">
+            <img src="../Images/undraw_doctor_kw5l.svg"alt=""/>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
